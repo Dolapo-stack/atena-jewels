@@ -1,18 +1,18 @@
 // Here we set types for the product
 
 export type Product = {
-  id: String;
-  name: String;
-  slug: String;
-  image: String;
-  banner: String;
-  price: Number;
-  brand: String;
-  description: String;
-  category: String;
-  rating: Number;
-  numReviews: Number;
-  countInStock: Number;
+  id: string;
+  name: string;
+  slug: string;
+  image: string;
+  banner: string;
+  price: number;
+  brand: string;
+  description: string;
+  category: string;
+  rating: number;
+  numReviews: number;
+  countInStock: number;
   colors?: [];
   sizes?: [];
 };
